@@ -11,7 +11,7 @@ func main() {
 	result := helpers.GetApprovers("E:/MISC/go/task_1/data/amazon.csv Department=Finance Level=L2")
 	fmt.Println(result)
 
-	// amazon
+	// chewy
 	result = helpers.GetApprovers("E:/MISC/go/task_1/data/chewy.csv Country=India Department=Engineering Level=L6")
 	fmt.Println(result)
 }
